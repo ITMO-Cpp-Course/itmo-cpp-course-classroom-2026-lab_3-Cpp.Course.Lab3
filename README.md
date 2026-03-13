@@ -75,17 +75,17 @@ body_cli stats
 #### Примеры
 
 ```
-$ body_cli add sphere 1.0 2.5
+$ add sphere 1.0 2.5
 Added sphere: r=1.0, density=2.5
 
-$ body_cli add box 2.0 2.0 2.0 1.0
+$ add box 2.0 2.0 2.0 1.0
 Added parallelepiped: 2.0x2.0x2.0, density=1.0
 
-$ body_cli list
+$ list
 1. Sphere: r=1.0, density=2.5
 2. Parallelepiped: 2.0x2.0x2.0, density=1.0
 
-$ body_cli stats
+$ stats
 Bodies: 2
 Total mass: 18.472...
 Total volume: 12.188...
